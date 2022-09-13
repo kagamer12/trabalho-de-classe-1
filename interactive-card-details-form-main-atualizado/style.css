@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+    background-color: white;
+    max-width: 1440px;
+    display: flex;
+}
+.row {  
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+}
+.side {
+-ms-flex: 30%; /* IE10 */
+flex: 30%;
+background-color: #f1f1f1;
+
+}
+.logof{
+    position: absolute;
+    border-radius: 15px;
+    bottom: 400px;
+    left: 10px;
+    margin-left: 10%;
+    }
+.logot{
+    position: absolute;
+    border-radius: 15px;
+    bottom: 100px;
+    left: 20px;
+    margin-left: 20%;
+    }
+
+.form__label {
+    text-transform: uppercase;
+    font-size: 0.65em;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 8px;
+    color: hsl(278deg, 68%, 11%);
+    font-weight: bold;
+  }
+  .form__input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 18px;
+    border-radius: 4px;
+    font-family: "Space Grotesk", sans-serif;
+    border: 1px solid hsl(270deg, 3%, 87%);
+    padding-left: 10px;
+    font-size: 1em;
+    outline: none;
+  }
+  .form__input::placeholder {
+    color: hsl(270deg, 3%, 87%);
+  }
+  .form__date-cvc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+  }
+  .form__date {
+    display: flex;
+    gap: 10px;
+  }
+  .form__submit, .thanks-section__button {
+    background-color: hsl(278deg, 68%, 11%);
+    color: hsl(270deg, 3%, 87%);
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  .form__submit:hover, .thanks-section__button:hover {
+    cursor: pointer;}
+    .form {
+        margin-top: 180px;
+        width: 385px;
+        position: relative;
+        left: 500px;
+    }
+.card__logo{
+    position: relative;
+    right: 290px;
+    top: 130px;
+    z-index: 1;
+}
+.card__number{
+    position: relative;
+    color: white;
+    letter-spacing: 3px;
+    bottom: 120px;
+    z-index: 1;
+    font-size: xx-large;
+    text-align: center;
+}
+.card__details{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 290px;
+    top: 230px;
+}
+p{
+    color: #f1f1f1;
+}
+.card-back__cvc{
+    position: relative;
+    color: white;
+    letter-spacing: 3px;
+    left: 29%;
+    bottom: 150px;
+    z-index: 1;
+    font-size: xx-large;
+    text-align: center;
+}
